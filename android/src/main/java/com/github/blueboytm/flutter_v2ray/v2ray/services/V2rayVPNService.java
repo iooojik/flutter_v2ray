@@ -71,7 +71,7 @@ public class V2rayVPNService extends VpnService implements V2rayServicesListener
             this.onDestroy();
         }
 
-        return START_STICKY;
+        return START_REDELIVER_INTENT;
     }
 
     private void stopAllProcess() {
